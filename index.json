@@ -146,10 +146,12 @@
       "VTX"
     ],
     "author": [
-      "Betaflight"
+      "Betaflight",
+      "Fiercest"
     ],
     "keywords": [
       "adjustments",
+      "analog",
       "aux",
       "basic",
       "clear",
@@ -368,6 +370,27 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/modes/my_modes.txt",
+      "hash": "b7e32edeb3d4379e2924e0a7768ba52b7515ac7cf743da3f1e68dd4914e8977d",
+      "title": "My Modes",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Fiercest",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/defaults.txt",
       "hash": "d594f4691e29d05efc4b37995b2f218fbe31f930157c3499755753214fa87254",
       "title": "Default 4.4 OSD settings",
@@ -382,6 +405,22 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/my_osd.txt",
+      "hash": "19138e14a27115aff89845a31f31bd74880a0ba05de5cc0a0f0d67ef442ff898",
+      "title": "My OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog",
+        "osd"
+      ],
+      "author": "Fiercest",
       "priority": 0
     },
     {
@@ -441,6 +480,24 @@
       ],
       "author": "Betaflight",
       "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/moblite7.txt",
+      "hash": "fe8bc8028a3c4532d9e8bec9fd68f5389e55f6d46db176053e02354d122c056c",
+      "title": "Mobile7 VTX",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "clear",
+        "vtx"
+      ],
+      "author": "Fiercest",
+      "priority": 1000000
     }
   ]
 }
